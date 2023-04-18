@@ -183,6 +183,79 @@ ul {
 }
 /* Gallery CSS End*/
 
+/* Contact CSS Start*/
+.contact {
+    padding: 40px 0;
+}.contact-form {
+    float: left;
+    width: 670px;
+    margin-right: 30px;
+}
+.contact-form h4,
+.contact-address h4 {
+    text-transform: capitalize;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.contact-form form {
+}
+.contact-form input {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.contact-form input[type="submit"] {
+    background-color: tomato;
+    border: 0;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-form input[type="submit"]:hover {
+    background-color: #ff7720;
+}
+.contact-address {
+    float: right;
+    width: 300px;
+}
+.contact-address ul {
+}
+.contact-address ul li {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.contact-address ul li i {
+}
+.contact-address ul li span {
+    font-weight: bold;
+    font-style: italic;
+}
+.map {
+    margin-bottom: 30px;
+}
+.map iframe {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 3px;
+    height: 300px;
+}
+/* Contact CSS Start*/
+
 /* Footer CSS start*/
 .footer {
     text-align: center;
