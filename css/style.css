@@ -165,6 +165,24 @@ ul {
 }
 /*About CSS end*/
 
+/* Gallery CSS Start*/
+.single-gallery {
+    float: left;
+    width: 227px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.single-gallery:nth-child(4),
+.single-gallery:last-child {
+    margin-right: 0;
+}
+.single-gallery iframe {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+/* Gallery CSS End*/
+
 /* Footer CSS start*/
 .footer {
     text-align: center;
