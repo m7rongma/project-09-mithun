@@ -96,6 +96,14 @@ ul {
     padding: 20px;
     color: #fff;
 }
+.single-service:last-child,
+.service-page .single-service:nth-child(4) {
+    margin-right: 0;
+}
+.service-page .single-service {
+    width: 227px;
+    margin-bottom: 30px;
+}
 .single-service:last-child {
     margin-right: 0;
 }
@@ -169,3 +177,30 @@ ul {
     font-size: 12px;
 }
 /* Footer CSS end*/
+
+/* Banner page CSS start */
+.banner-page {
+    background-size: cover;
+    background-position: center;
+    padding: 110px 0;
+    position: relative;
+    z-index: 2;
+}
+.banner-page:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #333;
+    opacity: 0.7;
+    z-index: -1;
+}
+.banner-page h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+/* Banner page CSS end */
